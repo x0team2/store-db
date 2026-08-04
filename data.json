@@ -3,12 +3,37 @@
   "version": 2,
   "generated_at": 1785797761836,
   "categories": {
+    "education":{
+      "name":"Education",
+      "description":"Health related utilities",
+      "icon":"fas fa-file-medical"
+    },
+  "social":{
+    "name":"Social",
+    "description":"🚀",
+    "icon":"fas fa-film"
+  },
     "games": {
       "name": "Games",
       "description": "Test your finger speed.",
       "icon": "fas fa-gamepad",
       "locales": [{"zh-CN": "游戏"}]
     }
+  "utility":{
+    "name":"Utilities",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  },
+    "multimedia":{
+    "name":"Multimedia",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  },
+ "nfws":{
+    "name":"NFWS",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  }
   },
   "apps": [
     {
