@@ -61,6 +61,28 @@
       "slug": "2048",
       "screenshots": []
     },
+
+     {
+      "name": "PornHUB",
+      "description": "PornHUB",
+      "icon": "https://x0.rf.gd/a/PornHUB/icon.png",
+      "download": {
+        "url": "https://x0.rf.gd/a/PornHUB/application.zip",
+        "version": "1.0.0"
+      },
+      "type": "privileged",
+      "author": ["PornHUB"],
+      "dependencies": [],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "small-game",
+        "categories": ["nfws"]
+      },
+      "fromstore": true,
+      "screenshots": ["https://x0.rf.gd/a/PornHUB/icon.png"]
+    },
+    
     {
       "name": "X0 TEAM KaiOS",
       "description": "ALLA 应用管理",
