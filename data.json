@@ -1,0 +1,67 @@
+{
+  "$schema": "./schema.json",
+  "version": 2,
+  "generated_at": 1785797761836,
+  "categories": {
+    "games": {
+      "name": "Games",
+      "description": "Test your finger speed.",
+      "icon": "fas fa-gamepad",
+      "locales": [{"zh-CN": "游戏"}]
+    }
+  },
+  "apps": [
+    {
+      "name": "X0 Store KaiOS",
+      "description": "Use the directional keys to merge numbers until you get to 2048! Keep playing beyond 2048 to showoff your skills and achieve the top score.",
+      "icon": "https://x0.rf.gd/icon.png",
+      "website": "http://kaiostech.com",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/openGiraffes/openGiraffes-store-binary@main/apps/FromStoreGames/2048/2048.zip",
+        "version": "1.4.2"
+      },
+      "type": "privileged",
+      "locales": ["中文(简体)"],
+      "license": "Closed Source",
+      "author": ["KaiOS"],
+      "maintainer": ["KaiOS"],
+      "dependencies": [],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "small-game",
+        "categories": ["games"]
+      },
+      "fromstore": true,
+      "slug": "2048",
+      "screenshots": []
+    },
+    {
+      "name": "X0 TEAM KaiOS",
+      "description": "ALLA 应用管理",
+      "icon": "https://x0.rf.gd/icon.png",
+      "website": "https://github.com/Lcsunm/ALLA-KaiOS",
+      "git_repo": "https://github.com/Lcsunm/ALLA-KaiOS",
+      "download": {
+        "url": "https://git.yumenaka.net/https://github.com/Lcsunm/ALLA-KaiOS/releases/download/v0.1.2/alla-omnisd-nightly.zip",
+        "version": "0.1.2"
+      },
+      "type": "certified",
+      "locales": ["中文(简体)"],
+      "license": "MIT",
+      "author": ["Lcsunm"],
+      "maintainer": ["Lcsunm"],
+      "dependencies": [],
+      "donation": null,
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "alla",
+        "categories": ["utility"]
+      },
+      "fromstore": false,
+      "slug": "alla",
+      "screenshots": []
+    }
+  ]
+}
