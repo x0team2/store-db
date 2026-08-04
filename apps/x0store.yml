@@ -1,0 +1,24 @@
+name: X0 Store
+description: X0 Store KaiOS 
+icon: https://x0.rf.gd/icon.png
+# screenshots are optional
+# screenshots:
+# website is optional
+# website: 
+# git repo is optional
+git_repo: https://github.com/canicjusz/10000h
+download:
+  url: https://x0.rf.gd/app.zip
+  manifest: https://x0.rf.gd/manifest.webapp
+type: privileged
+license: WTFPL
+author: Jan Michalak <janmichalak@int.pl>
+maintainer: Jan Michalak <janmichalak@int.pl>
+# donation is optional
+# donation:
+has_ads: false
+has_tracking: false
+meta:
+  tags: self-development; self-impovement
+  categories:
+   - utility
