@@ -176,6 +176,73 @@
       "slug": "ZBlock's Apps",
       "screenshots": []
     },
+
+    {
+      "name": "YouTube 1.92.2.K",
+      "description": "YouTube/1.32.55.K | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.32.55.k.zip",
+        "version": "1.32.55"
+      },
+      "type": "privileged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "youtube-1.32.55.k",
+      "screenshots": []
+    },
+    {
+      "name": "YouTube 1.32.55.K",
+      "description": "YouTube/1.32.55.K | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.32.55.k.zip",
+        "version": "1.32.55"
+      },
+      "type": "privileged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "youtube-1.32.55.k",
+      "screenshots": []
+    },
+    {
+      "name": "FaceBook 1.32.55.K",
+      "description": "YouTube/1.32.55.K | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.32.55.k.zip",
+        "version": "1.32.55"
+      },
+      "type": "privileged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "youtube-1.32.55.k",
+      "screenshots": []
+    },
     
     {
       "name": "X0 TEAM KaiOS",
