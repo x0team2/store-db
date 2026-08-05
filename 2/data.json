@@ -1,0 +1,65 @@
+{
+  "$schema": "./schema.json",
+  "version": 2,
+  "generated_at": 1785797761836,
+  "categories": {
+    "education":{
+      "name":"Education",
+      "description":"Health related utilities",
+      "icon":"fas fa-file-medical"
+    },
+  "social":{
+    "name":"Social",
+    "description":"🚀",
+    "icon":"fas fa-film"
+  },
+    "games": {
+      "name": "Games",
+      "description": "Test your finger speed.",
+      "icon": "fas fa-gamepad",
+      "locales": [{"zh-CN": "游戏"}]
+    },
+  "utility":{
+    "name":"Utilities",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  },
+    "multimedia":{
+    "name":"Multimedia",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  },
+ "nfws":{
+    "name":"NFWS",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  }
+  },
+  "apps": [
+    {
+      "name": "Test 1",
+      "description": "App",
+      "icon": "https://x0.rf.gd/host/apps/icon.png",
+      "website": "http://x0.rf.gd",
+      "download": {
+        "url": "https://cdn.jsdelivr.net/gh/openGiraffes/openGiraffes-store-binary@main/apps/FromStoreGames/2048/2048.zip",
+        "version": "1.0.0"
+      },
+      "type": "privileged",
+      "locales": ["default"],
+      "license": "Closed Source",
+      "author": ["KaiOS"],
+      "maintainer": ["KaiOS"],
+      "dependencies": [],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "small-game",
+        "categories": ["games"]
+      },
+      "fromstore": true,
+      "slug": "test1",
+      "screenshots": []
+    }
+  ]
+}
