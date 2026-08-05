@@ -178,13 +178,13 @@
     },
 
     {
-      "name": "YouTube 1.92.2.K",
-      "description": "YouTube/1.32.55.K | Online WebApp.",
+      "name": "YouTube 1.92.53.2",
+      "description": "YouTube/1.92.53.J | Online WebApp.",
       "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.32.55.k.zip",
-        "version": "1.32.55"
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.92.53.j.zip",
+        "version": "1.92.53.2"
       },
       "type": "privileged",
       "license": "Unknown",
@@ -222,13 +222,13 @@
       "screenshots": []
     },
     {
-      "name": "FaceBook 1.32.55.K",
-      "description": "YouTube/1.32.55.K | Online WebApp.",
+      "name": "FaceBook 2.0.3.46",
+      "description": "Facebook 2.0.3.46 | Online WebApp.",
       "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team2.github.io/kai-apps-2026/zips/youtube-1.32.55.k.zip",
-        "version": "1.32.55"
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/facebook-2.0.3.46.zip",
+        "version": "2.0.3.46"
       },
       "type": "privileged",
       "license": "Unknown",
@@ -240,7 +240,29 @@
         "tags": "social",
         "categories": ["social"]
       },
-      "slug": "youtube-1.32.55.k",
+      "slug": "Facebook 2.0.3.46",
+      "screenshots": []
+    },
+    {
+      "name": "B4U Chat",
+      "description": "B4U Chat 1.0.0 | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/b4uchat%202.5x%20meta.zip",
+        "version": "1.0.0"
+      },
+      "type": "privileged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "B4U Chat",
       "screenshots": []
     },
     
