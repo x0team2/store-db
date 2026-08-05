@@ -110,7 +110,7 @@
     {
       "name": "TeenBoy's Apps",
       "description": "TeenBoy's Apps | Online WebApp.",
-      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
         "url": "https://x0team-x0.zya.me/host/apps/TeenBoy/blog/app/app2.5.zip",
@@ -127,6 +127,29 @@
         "categories": ["social"]
       },
       "slug": "TeenBoy's Apps",
+      "screenshots": []
+    },
+
+    {
+      "name": "ZBlock's Apps",
+      "description": "ZBlock's Apps | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/ZBlock/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team-x0.zya.me/host/apps/ZBlock/blog/app/app2.5.zip",
+        "manifest": "https://x0team-x0.zya.me/host/apps/ZBlock/blog/app/manifest.webapp"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "ZBlock's Apps",
       "screenshots": []
     },
     
