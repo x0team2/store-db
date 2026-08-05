@@ -108,6 +108,30 @@
     },
 
     {
+      "name": "Jack's Apps 2",
+      "description": "Jack's Apps | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "version": "1.0.0"
+      },
+      "type": "web",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "Jack's Apps 2",
+      "screenshots": []
+    },
+
+        
+    {
       "name": "TeenBoy's Apps",
       "description": "TeenBoy's Apps | Online WebApp.",
       "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/icon.png",
