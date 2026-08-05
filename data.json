@@ -83,6 +83,52 @@
        "slug": "PornHUB",
       "screenshots": ["https://x0.rf.gd/a/PornHUB/icon.png"]
     },
+
+    {
+      "name": "Jack's Apps",
+      "description": "Jack's Apps | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "manifest": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/manifest.webapp"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "Jack's Apps",
+      "screenshots": []
+    },
+
+    {
+      "name": "TeenBoy's Apps",
+      "description": "TeenBoy's Apps | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team-x0.zya.me/host/apps/TeenBoy/blog/app/app2.5.zip",
+        "manifest": "https://x0team-x0.zya.me/host/apps/TeenBoy/blog/app/manifest.webapp"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "social",
+        "categories": ["social"]
+      },
+      "slug": "TeenBoy's Apps",
+      "screenshots": []
+    },
     
     {
       "name": "X0 TEAM KaiOS",
