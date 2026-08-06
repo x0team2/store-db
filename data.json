@@ -93,7 +93,7 @@
       "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/jacksapps.2.5.zip",
         "manifest": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/manifest.webapp"
       },
       "type": "packaged",
@@ -116,7 +116,7 @@
       "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/jacksapps.2.5.zip",
         "version": "1.0.0"
       },
       "type": "web",
@@ -140,7 +140,7 @@
       "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team-x0.zya.me/host/apps/TeenBoy/blog/app/app2.5.zip",
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/teenboysapps.2.5.zip",
         "manifest": "https://x0team-x0.zya.me/host/apps/TeenBoy/blog/app/manifest.webapp"
       },
       "type": "packaged",
@@ -163,7 +163,7 @@
       "icon": "https://x0team-x0.zya.me/host/apps/ZBlock/icon.png",
       "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://x0team-x0.zya.me/host/apps/ZBlock/blog/app/app2.5.zip",
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/zblocksapps.2.5.zip",
         "manifest": "https://x0team-x0.zya.me/host/apps/ZBlock/blog/app/manifest.webapp"
       },
       "type": "packaged",
