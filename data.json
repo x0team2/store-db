@@ -33,32 +33,35 @@
     "name":"NFWS",
     "description":"🚀",
     "icon":"fas fa-newspaper"
-  }
+  },
+
+"root":{
+    "name":"Root",
+    "description":"🚀",
+    "icon":"fas fa-newspaper"
+  },
   },
   "apps": [
-    {
+        {
       "name": "X0 Store KaiOS",
-      "description": "Use the directional keys to merge numbers until you get to 2048! Keep playing beyond 2048 to showoff your skills and achieve the top score.",
-      "icon": "https://x0.rf.gd/icon.png",
-      "website": "http://kaiostech.com",
+      "description": "Jack's Apps | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://cdn.jsdelivr.net/gh/openGiraffes/openGiraffes-store-binary@main/apps/FromStoreGames/2048/2048.zip",
-        "version": "1.4.2"
+        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "manifest": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/manifest.webapp"
       },
-      "type": "privileged",
-      "locales": ["中文(简体)"],
-      "license": "Closed Source",
-      "author": ["KaiOS"],
-      "maintainer": ["KaiOS"],
-      "dependencies": [],
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
       "has_ads": false,
       "has_tracking": false,
       "meta": {
-        "tags": "small-game",
-        "categories": ["games"]
+        "tags": "social",
+        "categories": ["utility"]
       },
-      "fromstore": true,
-      "slug": "2048",
+      "slug": "X0 Store KaiOS",
       "screenshots": []
     },
 
@@ -266,31 +269,26 @@
       "screenshots": []
     },
     
-    {
-      "name": "X0 TEAM KaiOS",
-      "description": "ALLA 应用管理",
-      "icon": "https://x0.rf.gd/icon.png",
-      "website": "https://github.com/Lcsunm/ALLA-KaiOS",
-      "git_repo": "https://github.com/Lcsunm/ALLA-KaiOS",
+     {
+      "name": "X0 Team KaiOS",
+      "description": "X0 Team KaiOS | Online WebApp.",
+      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "website": "https://x0.rf.gd/",
       "download": {
-        "url": "https://git.yumenaka.net/https://github.com/Lcsunm/ALLA-KaiOS/releases/download/v0.1.2/alla-omnisd-nightly.zip",
-        "version": "0.1.2"
+        "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
+        "manifest": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/manifest.webapp"
       },
-      "type": "certified",
-      "locales": ["中文(简体)"],
-      "license": "MIT",
-      "author": ["Lcsunm"],
-      "maintainer": ["Lcsunm"],
-      "dependencies": [],
-      "donation": null,
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
       "has_ads": false,
       "has_tracking": false,
       "meta": {
-        "tags": "alla",
+        "tags": "social",
         "categories": ["utility"]
       },
-      "fromstore": false,
-      "slug": "alla",
+      "slug": "X0 Team KaiOS",
       "screenshots": []
     }
   ]
