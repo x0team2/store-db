@@ -70,7 +70,7 @@
       "description": "PornHUB",
       "icon": "https://x0.rf.gd/a/PornHUB/icon.png",
       "download": {
-        "url": "https://x0.rf.gd/a/PornHUB/application.zip",
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/pornhub.2.5.zip",
         "version": "1.0.0"
       },
       "type": "privileged",
@@ -227,7 +227,7 @@
     {
       "name": "FaceBook 2.0.3.46",
       "description": "Facebook 2.0.3.46 | Online WebApp.",
-      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "icon": "https://x0team2.github.io/default.png",
       "website": "https://x0.rf.gd/",
       "download": {
         "url": "https://x0team2.github.io/kai-apps-2026/zips/facebook-2.0.3.46.zip",
@@ -249,7 +249,7 @@
     {
       "name": "B4U Chat",
       "description": "B4U Chat 1.0.0 | Online WebApp.",
-      "icon": "https://x0team-x0.zya.me/host/apps/TeenBoy/YouTube/icon.png",
+      "icon": "https://x0team2.github.io/default.png",
       "website": "https://x0.rf.gd/",
       "download": {
         "url": "https://x0team2.github.io/kai-apps-2026/zips/b4uchat%202.5x%20meta.zip",
@@ -272,7 +272,7 @@
      {
       "name": "X0 Team KaiOS",
       "description": "X0 Team KaiOS | Online WebApp.",
-      "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+      "icon": "https://x0team2.github.io/default.png",
       "website": "https://x0.rf.gd/",
       "download": {
         "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
@@ -290,6 +290,270 @@
       },
       "slug": "X0 Team KaiOS",
       "screenshots": []
-    }
+    },
+    {
+      "name": "wallace-0.1.zip",
+      "description": "wallace-0.1.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/wallace-0.1.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "wallace-0.1",
+      "screenshots": []
+    },
+    {
+      "name": "wallace-lite-0.1.zip",
+      "description": "wallace-lite-0.1.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/wallace-lite-0.1.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "wallace-lite-0.1",
+      "screenshots": []
+    },
+    {
+      "name": "telnetd",
+      "description": "telnetd | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/telnetd.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "telnetd",
+      "screenshots": []
+    },
+    {
+      "name": "terminal.kaios",
+      "description": "terminal.kaios | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/terminal.kaios.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "terminal.kaios",
+      "screenshots": []
+    },
+    {
+      "name": "pkg.gerda.tech",
+      "description": "pkg.gerda.tech | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/pkg.gerda.tech.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "pkg.gerda.tech",
+      "screenshots": []
+    },
+    {
+      "name": "files.gerda.tech.zip",
+      "description": "files.gerda.tech.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/files.gerda.tech.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "files.gerda.tech",
+      "screenshots": []
+      },
+    {
+      "name": "gab.gerda.tech.zip",
+      "description": "gab.gerda.tech.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/gab.gerda.tech.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "gab.gerda.tech",
+      "screenshots": []
+    },
+    {
+      "name": "jiohots.jio.com",
+      "description": "jiohots.jio.com.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/jiohots.jio.com.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "jiohots.jio.com",
+      "screenshots": []
+    },
+    {
+      "name": "filemanager.gaiamobile.org",
+      "description": "filemanager.gaiamobile.org.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/filemanager.gaiamobile.org.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "filemanager.gaiamobile.org",
+      "screenshots": []
+    },
+    {
+      "name": "jiostore-2.2.1",
+      "description": "jiostore-2.2.1.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/jiostore-2.2.1.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "jiostore-2.2.1",
+      "screenshots": []
+    },
+    {
+      "name": "kpocket.arma7x.com",
+      "description": "kpocket.arma7x.com.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/kpocket.arma7x.com.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "kpocket.arma7x.com",
+      "screenshots": []
+    },
+    {
+      "name": "x0browserlite.com",
+      "description": "x0browserlite.com.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/x0browserlite.com.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "x0browserlite.com",
+      "screenshots": []
+      }
   ]
 }
