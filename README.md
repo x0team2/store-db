@@ -9,3 +9,9 @@ Modified Database - Store Client For KaiOS
 ## Database : 2 ( _https://x0team2.github.io/store-db/2/data.json_ )
 
 ## Database : 3 ( _https://x0team2.github.io/store-db/3/data.json_ )
+
+
+
+
+
+## Database For KaiOS 2.5+ Devices
