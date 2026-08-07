@@ -40,6 +40,12 @@
     "description":"🚀",
     "icon":"fas fa-newspaper"
   },
+
+"mods":{
+    "name":"Mods",
+    "description":"🚀",
+    "icon":"fas fa-app"
+  }
   },
   "apps": [
         {
@@ -553,6 +559,52 @@
         "categories": ["root"]
       },
       "slug": "x0browserlite.com",
+      "screenshots": []
+      },
+
+    {
+      "name": "X0 All",
+      "description": "x0-all.2.5.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/x0-all.2.5.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["mods"]
+      },
+      "slug": "x0-all.2.5",
+      "screenshots": []
+      },
+
+    {
+      "name": "OmniSD",
+      "description": "omnisd.2.5.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://x0team2.github.io/kai-apps-2026/zips/omnisd.2.5.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "root",
+        "categories": ["root"]
+      },
+      "slug": "omnisd.2.5",
       "screenshots": []
       }
   ]
