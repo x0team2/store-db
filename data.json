@@ -606,6 +606,29 @@
       },
       "slug": "omnisd.2.5",
       "screenshots": []
+      },
+
+    {
+      "name": "OmniJ2ME_2.5",
+      "description": "OmniJ2ME_2.5_97.16_OmniSD.zip | Online WebApp.",
+      "icon": "https://x0team2.github.io/default.png",
+      "website": "https://x0.rf.gd/",
+      "download": {
+        "url": "https://dl-j2me.jaxy.cc/OmniJ2ME_2.5_97.16_OmniSD.zip",
+        "version": "1.0.0"
+      },
+      "type": "packaged",
+      "license": "Unknown",
+      "author": ["X0 TEAM"],
+      "maintainer": ["X0"],
+      "has_ads": false,
+      "has_tracking": false,
+      "meta": {
+        "tags": "utility",
+        "categories": ["utility"]
+      },
+      "slug": "OmniJ2ME_2.5",
+      "screenshots": []
       }
   ]
 }
