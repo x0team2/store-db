@@ -5,6 +5,19 @@ $dataFile = 'data.json';
 // Initialize variables
 $appNameDefault = '';
 
+// Load existing data
+if (file_exists($dataFile)) {
+    $jsonData = file_get_contents($dataFile);
+    $data = json_decode($jsonData, true);
+    if ($data === null) {
+        // Handle JSON decode error
+        $data = ['apps' => []];
+    }
+} else {
+    // If file doesn't exist, initialize structure
+    $data = ['apps' => []];
+}
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Collect form data
     $name = trim($_POST['name']);
@@ -40,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "screenshots" => []
         ];
 
-        // Append to apps array
+        // Append to existing apps array
         $data['apps'][] = $newApp;
 
         // Save back to JSON file
@@ -68,7 +81,10 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
-<title>Submit App</title>
+ <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1"/>
+  
+<title>Submit Apps For X0 Store Client KaiOS</title>
+
 <style>
   /* Your CSS styles as before */
   /* ... (same as previous code) ... */
@@ -83,11 +99,11 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
-  min-height: 100vh;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 10px;
 }
 
 h2 {
@@ -103,7 +119,6 @@ form {
   padding: 30px;
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-  max-width: 400px;
   width: 100%;
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -121,9 +136,8 @@ label {
   font-size: 1em;
 }
 
-input[type="text"],
-input[type="url"],
-select {
+/* Styles for text and URL inputs with distinct colors */
+input[type="text"] {
   width: 100%;
   padding: 10px 15px;
   margin-bottom: 15px;
@@ -131,44 +145,112 @@ select {
   border-radius: 8px;
   font-size: 14px;
   transition: border-color 0.3s, box-shadow 0.3s;
+  /* Default color */
+  border-color: #ccc;
 }
 
-input[type="text"]:focus,
-input[type="url"]:focus,
+/* Focus state for text input */
+input[type="text"]:focus {
+  outline: none;
+  border-color: #FF5733; /* Example: orange-red */
+  box-shadow: 0 0 8px rgba(255, 87, 51, 0.6);
+}
+
+/* Hover state for text input */
+input[type="text"]:hover {
+  border-color: #FF8F33; /* Example: orange-yellow */
+}
+
+/* Styles for URL inputs with distinct colors */
+input[type="url"] {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  /* Default color */
+  border-color: #ccc;
+}
+
+/* Focus state for URL input */
+input[type="url"]:focus {
+  outline: none;
+  border-color: #33A1FF; /* Example: blue */
+  box-shadow: 0 0 8px rgba(51, 161, 255, 0.6);
+}
+
+/* Hover state for URL input */
+input[type="url"]:hover {
+  border-color: #66C2FF; /* Light blue */
+}
+
+/* Styles for select with distinct colors */
+select {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s, box-shadow 0.3s, background-color 0.3s;
+  /* Default color */
+  border-color: #ccc;
+}
+
+/* Focus state for select */
 select:focus {
   outline: none;
-  border-color: #4A90E2;
-  box-shadow: 0 0 8px rgba(74, 144, 226, 0.6);
+  border-color: #8E44AD; /* Example: purple */
+  box-shadow: 0 0 8px rgba(142, 68, 173, 0.6);
+  background-color: #f0e6ff;
 }
 
-input[type="text"]:hover,
-input[type="url"]:hover,
+/* Hover state for select */
 select:hover {
-  border-color: #4A90E2;
+  border-color: #BA55D3; /* Light purple */
+  background-color: #f5e6ff;
 }
 
+/* Button styles with border and text effects */
 button {
   width: 100%;
   padding: 12px;
-  background-color: #4A90E2;
+  background-color: #5A9; /* Changed color */
   color: #fff;
-  border: none;
+  border: 2px solid #333; /* Added border */
   border-radius: 8px;
   font-size: 16px;
+  font-weight: bold; /* Text effect: bold */
+  letter-spacing: 1px; /* Text effect: spacing */
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Text shadow for effect */
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s, color 0.3s;
 }
 
+/* Hover state with new color and effects */
 button:hover {
-  background-color: #357ABD;
+  background-color: #4682B4; /* Changed hover color */
   transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  color: #fff;
+}
+
+/* Focus state with new color and effects */
+button:focus {
+  background-color: #FF69B4; /* Changed focus color to pink */
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(255, 105, 180, 0.5);
+  outline: none; /* Remove default outline */
+  color: #fff;
 }
 
 .message {
   margin-top: 20px;
   text-align: center;
   font-weight: bold;
-  color: #fff;
+  color: black;
   font-size: 1.1em;
 }
 
@@ -189,39 +271,45 @@ button:hover {
 </head>
 <body>
 
-<h2>Submit New App</h2>
-<?php if (isset($message)) echo "<div class='message'>$message</div>"; ?>
+
 <form method="post" action="">
+
+  <?php if (isset($message)) echo "<div class='message'>$message</div>"; ?>
+
     <label for="name">App Name:</label>
-    <input type="text" id="name" name="name" value="<?php echo htmlspecialchars($appNameDefault); ?>" required>
+<input type="text" id="name" name="name" value="<?php echo htmlspecialchars($appNameDefault); ?>" required placeholder="Enter app name" />
 
-    <label for="category">Category:</label>
-    <select id="category" name="category" required>
-      <option value="">Select Category</option>
-      <option value="social">Social</option>
-      <option value="education">Education</option>
-      <option value="games">Games</option>
-      <option value="utility">Utility</option>
-      <option value="multimedia">Multimedia</option>
-      <option value="ai">AI</option>
-      <option value="nsfw">NSFW</option>
-      <option value="root">Root</option>
-    </select>
+<label for="category">Category:</label>
+<select id="category" name="category" required>
+  <option value="">Select Category</option>
+  <option value="social">Social</option>
+  <option value="education">Education</option>
+  <option value="games">Games</option>
+  <option value="utility">Utility</option>
+  <option value="multimedia">Multimedia</option>
+  <option value="ai">AI</option>
+  <option value="nsfw">NSFW</option>
+  <option value="root">Root</option>
+</select>
 
-    <label for="description">Description (optional):</label>
-    <input type="text" id="description" name="description">
+<label for="description">Description (optional):</label>
+<input type="text" id="description" name="description" placeholder="Enter description" />
 
-    <label for="website">Website (optional):</label>
-    <input type="url" id="website" name="website">
+<label for="website">Website (optional):</label>
+<input type="url" id="website" name="website" placeholder="https://example.com" />
 
-    <label for="download_url">Download URL:</label>
-    <input type="url" id="download_url" name="download_url" onblur="fillAppName()">
+<label for="download_url">Download URL:</label>
+<input type="url" id="download_url" name="download_url" onblur="fillAppName()" placeholder="https://example.com/app.zip" />
 
-    <label for="download_version">Download Version (optional):</label>
-    <input type="text" id="download_version" name="download_version">
+<label for="download_version">Download Version (optional):</label>
+<input type="text" id="download_version" name="download_version" placeholder="e.g., 1.0.0" />
 
     <button type="submit">Submit App</button>
 </form>
+
+
+<div style="position: fixed; top: 10px; right: 10px; padding: 2px; box-shadow: 1px 1px 2px black; border-radius: 2px;"><a href="update-repo.php" style="text-shadow:  1px 1px 1px black;">🔄</a></div>
+
 
 </body>
 </html>
