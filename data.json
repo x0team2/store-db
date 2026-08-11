@@ -916,6 +916,91 @@
             },
             "slug": "edu.ai.2.5",
             "screenshots": []
+        },
+        {
+            "name": "CrossTweak",
+            "description": "CrossTweak.zip | Online WebApp.",
+            "icon": "https://gitlab.com/uploads/-/system/project/avatar/31055965/icon-112.png?width=48",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/x0-store-kaios-2026/app-zip/edu.ai.2.5.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "utility",
+                "categories": [
+                    "root"
+                ]
+            },
+            "slug": "CrossTweak",
+            "screenshots": []
+        },
+        {
+            "name": "TeleKram",
+            "description": "TeleKram.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/x0-store-kaios-2026/app-zip/x0-store-client.2.5.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "social",
+                "categories": [
+                    "social"
+                ]
+            },
+            "slug": "TeleKram.2.5",
+            "screenshots": []
+        },
+
+        {
+            "name": "NeoMod",
+            "description": "NeoMod.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://4pda.to/stat/go?u=https%3A%2F%2Fcloud.disroot.org%2Fs%2FPA68zRj8j7LwAcq%2Fdownload&e=111670706",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "social",
+                "categories": [
+                    "social"
+                ]
+            },
+            "slug": "NeoMod.2.5",
+            "screenshots": []
         }
 
     ]
