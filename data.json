@@ -53,7 +53,7 @@
         {
             "name": "X0 Store KaiOS",
             "description": "Jack's Apps | Online WebApp.",
-            "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
+            "icon": "https://x0-a.blogspot.com/favicon.ico",
             "website": "https://x0.rf.gd/",
             "download": {
                 "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
@@ -131,34 +131,6 @@
                 ]
             },
             "slug": "Jack's Apps",
-            "screenshots": []
-        },
-        {
-            "name": "Jack's Apps 2",
-            "description": "Jack's Apps | Online WebApp.",
-            "icon": "https://x0team-x0.zya.me/host/apps/Jack/icon.png",
-            "website": "https://x0.rf.gd/",
-            "download": {
-                "url": "https://x0team2.github.io/kai-apps-2026/zips/jacksapps.2.5.zip",
-                "version": "1.0.0"
-            },
-            "type": "web",
-            "license": "Unknown",
-            "author": [
-                "X0 TEAM"
-            ],
-            "maintainer": [
-                "X0"
-            ],
-            "has_ads": false,
-            "has_tracking": false,
-            "meta": {
-                "tags": "social",
-                "categories": [
-                    "social"
-                ]
-            },
-            "slug": "Jack's Apps 2",
             "screenshots": []
         },
         {
@@ -332,7 +304,7 @@
         {
             "name": "X0 Team KaiOS",
             "description": "X0 Team KaiOS | Online WebApp.",
-            "icon": "https://x0team2.github.io/default.png",
+            "icon": "https://x0.rf.gd/icon.png",
             "website": "https://x0.rf.gd/",
             "download": {
                 "url": "https://x0team-x0.zya.me/host/apps/Jack/blog/app/app2.5.zip",
@@ -860,6 +832,91 @@
             },
             "slug": "x0-store-client.2.5",
             "screenshots": []
+        },
+        {
+            "name": "V Droid Games 1.0",
+            "description": "V Droid Games 1.0.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/V%20Droid%20Games%201.0.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "games",
+                "categories": [
+                    "games"
+                ]
+            },
+            "slug": "V Droid Games 1.0",
+            "screenshots": []
+        },
+        {
+            "name": "NCSOLVE 📚",
+            "description": "ncsolve.2.5.zip | Online WebApp.",
+            "icon": "https://ncsolve.blogspot.com/favicon.ico",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/x0-store-kaios-2026/app-zip/ncsolve.2.5.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "education",
+                "categories": [
+                    "education"
+                ]
+            },
+            "slug": "ncsolve.2.5",
+            "screenshots": []
+        },
+        {
+            "name": "EDU Ai 🤖",
+            "description": "edu.ai.2.5.zip | Online WebApp.",
+            "icon": "https://edu-ai.blogspot.com/favicon.ico",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/x0-store-kaios-2026/app-zip/edu.ai.2.5.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "education",
+                "categories": [
+                    "education"
+                ]
+            },
+            "slug": "edu.ai.2.5",
+            "screenshots": []
         }
+
     ]
 }
