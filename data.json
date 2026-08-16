@@ -862,7 +862,7 @@
             "screenshots": []
         },
         {
-            "name": "NCSOLVE 📚",
+            "name": "NCSOLVE \ud83d\udcda",
             "description": "ncsolve.2.5.zip | Online WebApp.",
             "icon": "https://ncsolve.blogspot.com/favicon.ico",
             "website": "https://x0.rf.gd/",
@@ -890,7 +890,7 @@
             "screenshots": []
         },
         {
-            "name": "EDU Ai 🤖",
+            "name": "EDU Ai \ud83e\udd16",
             "description": "edu.ai.2.5.zip | Online WebApp.",
             "icon": "https://edu-ai.blogspot.com/favicon.ico",
             "website": "https://x0.rf.gd/",
@@ -973,7 +973,6 @@
             "slug": "TeleKram.2.5",
             "screenshots": []
         },
-
         {
             "name": "NeoMod",
             "description": "NeoMod.zip | Online WebApp.",
@@ -1001,7 +1000,62 @@
             },
             "slug": "NeoMod.2.5",
             "screenshots": []
+        },
+        {
+            "name": "x0.store.client",
+            "description": "x0.store.client.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/x0.store.client.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "root",
+                "categories": [
+                    "root"
+                ]
+            },
+            "slug": "x0.store.client",
+            "screenshots": []
+        },
+        {
+            "name": "x0.store.client.lite",
+            "description": "x0.store.client.lite.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/x0.store.client.lite.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "root",
+                "categories": [
+                    "root"
+                ]
+            },
+            "slug": "x0.store.client.lite",
+            "screenshots": []
         }
-
     ]
 }
