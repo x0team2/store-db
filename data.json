@@ -81,29 +81,29 @@
         {
             "name": "PornHUB",
             "description": "PornHUB",
-            "icon": "https://x0.rf.gd/a/PornHUB/icon.png",
+            "icon": "https://pornhubkaios.blogspot.com/favicon.ico",
             "download": {
                 "url": "https://x0team2.github.io/kai-apps-2026/zips/pornhub.2.5.zip",
                 "version": "1.0.0"
             },
-            "type": "privileged",
+            "type": "packaged",
+            "license": "Unknown",
             "author": [
                 "PornHUB"
             ],
-            "dependencies": [],
+            "maintainer": [
+                "none"
+            ],
             "has_ads": false,
             "has_tracking": false,
             "meta": {
-                "tags": "small-game",
+                "tags": "nsfw",
                 "categories": [
-                    "nfws"
+                    "nsfw"
                 ]
             },
-            "fromstore": true,
             "slug": "PornHUB",
-            "screenshots": [
-                "https://x0.rf.gd/a/PornHUB/icon.png"
-            ]
+            "screenshots": []
         },
         {
             "name": "Jack's Apps",
