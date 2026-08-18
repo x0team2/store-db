@@ -1056,6 +1056,62 @@
             },
             "slug": "x0.store.client.lite",
             "screenshots": []
+        },
+        {
+            "name": "adbroot",
+            "description": "adbroot.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/adbroot.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "root",
+                "categories": [
+                    "root"
+                ]
+            },
+            "slug": "adbroot",
+            "screenshots": []
+        },
+        {
+            "name": "Netstat_v1.3.0",
+            "description": "Netstat_v1.3.0.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/Netstat_v1.3.0.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "utility",
+                "categories": [
+                    "utility"
+                ]
+            },
+            "slug": "netstat_v1.3.0",
+            "screenshots": []
         }
     ]
 }
