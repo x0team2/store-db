@@ -290,6 +290,7 @@ button:focus {
   <option value="ai">AI</option>
   <option value="nsfw">NSFW</option>
   <option value="root">Root</option>
+ <option value="mods">Mods</option>
 </select>
 
 <label for="description">Description (optional):</label>
