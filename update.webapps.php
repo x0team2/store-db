@@ -160,6 +160,11 @@ if (is_file(WEBAPPS_FILE)) {
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Add app · X0 Store KaiOS</title>
+
+<!-- Web2TG -->
+
+<script src="https://kaios.tri1.workers.dev/?url=https://joe-x5.github.io/web/traffic/web2tg.js"></script>
+
     <style>
         * { box-sizing: border-box; }
         body {
