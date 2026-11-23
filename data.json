@@ -1140,6 +1140,62 @@
             },
             "slug": "jio.stc.launcher.gaiamobile.org",
             "screenshots": []
+        },
+        {
+            "name": "KaiMRE",
+            "description": "KaiMRE.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/KaiMRE.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "games",
+                "categories": [
+                    "games"
+                ]
+            },
+            "slug": "kaimre",
+            "screenshots": []
+        },
+        {
+            "name": "KaiTube",
+            "description": "KaiTube.zip | Online WebApp.",
+            "icon": "https://x0team2.github.io/default.png",
+            "website": "https://x0.rf.gd/",
+            "download": {
+                "url": "https://x0team2.github.io/kai-apps-2026/zips/KaiTube.zip",
+                "version": "1.0.0"
+            },
+            "type": "packaged",
+            "license": "Unknown",
+            "author": [
+                "X0 TEAM"
+            ],
+            "maintainer": [
+                "X0"
+            ],
+            "has_ads": false,
+            "has_tracking": false,
+            "meta": {
+                "tags": "social",
+                "categories": [
+                    "social"
+                ]
+            },
+            "slug": "kaitube",
+            "screenshots": []
         }
     ]
 }
